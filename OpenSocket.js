@@ -25,7 +25,7 @@ function OpenSocket(args) {
 
     this.constructor = (args) => {
 
-        var self = new WebSocket("ws://" + window.location.hostname + ":3000" + "/websockets/" + args.channel);
+        var self = new WebSocket("ws://" + window.location.host + "/websockets/" + args.channel);
 
         args = args || this.defaultArgs;
         for (var method in args.methods) {
