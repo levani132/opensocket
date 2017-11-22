@@ -41,7 +41,7 @@ module.exports = function(server, channel){
         }
     }
 
-    self.clients = noSuchMethod({}, function(name, data){
+    self.client = noSuchMethod({}, function(name, data){
         self.send(JSON.stringify({ action: name, data: data }));
     });
 
