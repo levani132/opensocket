@@ -1,0 +1,15 @@
+{
+  "name": "opensocket",
+  "version": "1.0.0",
+  "description": "Creates open methods protocol for server and clients connected to specific channels",
+  "main": "OpenSocket.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^3.3.2"
+  }
+}
