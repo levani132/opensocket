@@ -1,6 +1,6 @@
 {
   "name": "opensocket",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Creates open methods protocol for server and clients connected to specific channels",
   "main": "OpenSocketBack.js",
   "scripts": {
