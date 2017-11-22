@@ -15,9 +15,8 @@ function noSuchMethod(obj, func) {
 
 module.exports = function(server, channel){
     var path = '/websockets/' + (channel || '');
-    var port = process.env.PORT || 3000;
     var self = new WebSocket.Server({path, server});
-    console.log("websocket started on path " + path + " listening on " + port);
+    console.log("websocket started on path " + path);
     self.connections = [];
     
     function incoming(data){
